@@ -1,0 +1,555 @@
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T02:34:24.961Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T02:34:25.675Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T02:34:25.678Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T02:34:25.681Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T02:34:25.683Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T02:34:26.753Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T02:34:26.767Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T02:34:26.772Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T02:34:26.787Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T02:34:26.800Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T02:34:26.803Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T02:34:26.804Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T02:34:26.805Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T02:34:26.835Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T02:34:26.844Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T02:34:26.847Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T02:35:00.029Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T02:37:44.261Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T02:37:45.204Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T02:37:45.214Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T02:37:45.216Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T02:37:45.219Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T02:37:46.204Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T02:37:46.205Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T02:37:46.207Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T02:37:46.250Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T02:37:46.256Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T02:37:46.266Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T02:37:46.268Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T02:37:46.271Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T02:37:46.304Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T02:37:46.314Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T02:37:46.315Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-10T02:40:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T02:40:00.040Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-10T02:40:00.134Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T23:14:07.594Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:14:08.376Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T23:14:08.377Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T23:14:08.378Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T23:14:08.379Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T23:14:09.184Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:14:09.188Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T23:14:09.228Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T23:14:09.259Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T23:14:09.278Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T23:14:09.297Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T23:14:09.307Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T23:14:09.311Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T23:14:09.399Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T23:14:09.410Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T23:14:09.411Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:15:00.051Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:76:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-10T23:16:23.681Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T23:17:22.990Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:17:23.203Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T23:17:23.205Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T23:17:23.206Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T23:17:23.208Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T23:17:23.701Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:17:23.705Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T23:17:23.709Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T23:17:23.746Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T23:17:23.760Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T23:17:23.762Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T23:17:23.767Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T23:17:23.771Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T23:17:23.820Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T23:17:23.825Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T23:17:23.827Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test-id\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test-id\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:76:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-10T23:19:03.453Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T23:19:44.899Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:19:45.132Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T23:19:45.134Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T23:19:45.136Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T23:19:45.140Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T23:19:45.696Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:19:45.697Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T23:19:45.699Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T23:19:45.718Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T23:19:45.727Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T23:19:45.730Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T23:19:45.731Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T23:19:45.732Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T23:19:45.766Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T23:19:45.778Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T23:19:45.779Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:20:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-10T23:20:00.063Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-10T23:20:00.151Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"USDT\",\"amount_usd\":50}","timestamp":"2026-03-10T23:20:20.819Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 50 USD em USDT","timestamp":"2026-03-10T23:20:20.820Z"}
+{"context":"ExceptionsHandler","level":"error","message":"null value in column \"expires_at\" of relation \"orders\" violates not-null constraint","stack":["QueryFailedError: null value in column \"expires_at\" of relation \"orders\" violates not-null constraint\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at InsertQueryBuilder.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\InsertQueryBuilder.ts:164:33)\n    at SubjectExecutor.executeInsertOperations (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\SubjectExecutor.ts:435:42)\n    at SubjectExecutor.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\SubjectExecutor.ts:137:9)\n    at EntityPersistExecutor.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\EntityPersistExecutor.ts:182:21)\n    at OrderService.createOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:23:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-10T23:20:21.033Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-10T23:21:05.955Z"}
+{"context":"ModuleTokenFactory","level":"warn","message":"The module \"TypeOrmModule\" is taking 20.72ms to serialize, this may be caused by larger objects statically assigned to the module. More details: https://github.com/nestjs/nest/issues/12738","timestamp":"2026-03-10T23:21:06.129Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:21:06.497Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-10T23:21:06.499Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-10T23:21:06.503Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-10T23:21:06.509Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-10T23:21:07.312Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-10T23:21:07.313Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-10T23:21:07.317Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-10T23:21:07.347Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-10T23:21:07.363Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-10T23:21:07.365Z"}
+{"context":"RoutesResolver","level":"info","message":"CoinGateWebhookHandler {/webhooks}:","timestamp":"2026-03-10T23:21:07.366Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/coingate, POST} route","timestamp":"2026-03-10T23:21:07.368Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-10T23:21:07.416Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-10T23:21:07.427Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/coingate","timestamp":"2026-03-10T23:21:07.429Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"USDT\",\"amount_usd\":50}","timestamp":"2026-03-10T23:21:16.600Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 50 USD em USDT","timestamp":"2026-03-10T23:21:16.601Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 26c5a292-bc39-4b95-bafd-db952700c37d","timestamp":"2026-03-10T23:21:16.720Z"}
+{"context":"CoinGateClient","level":"info","message":"Criando invoice CoinGate para order 26c5a292-bc39-4b95-bafd-db952700c37d","timestamp":"2026-03-10T23:21:16.721Z"}
+{"context":"CoinGateClient","level":"error","message":"Erro ao criar invoice CoinGate","stack":[{"error":{"message":"Auth Token is not valid","reason":"BadAuthToken"},"order_id":"26c5a292-bc39-4b95-bafd-db952700c37d"}],"timestamp":"2026-03-10T23:21:17.603Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:25:00.033Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-10T23:30:00.043Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:30:00.056Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-10T23:30:00.144Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:35:00.008Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-10T23:40:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:40:00.020Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-10T23:40:00.113Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:45:00.034Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:50:00.028Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-10T23:50:00.037Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-10T23:50:00.189Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-10T23:55:00.042Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:00:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:00:00.029Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:00:00.114Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:05:00.020Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:10:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:10:00.017Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:10:00.083Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:15:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:20:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:20:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:20:00.071Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:25:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:30:00.019Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:30:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:30:00.085Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:35:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:40:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:40:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:40:00.076Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:45:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T00:50:00.016Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:50:00.033Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T00:50:00.095Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T00:55:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T09:12:12.676Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:12:12.775Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T09:12:14.133Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:15:00.014Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:20:00.008Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T09:20:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T09:20:00.103Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:25:00.008Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T09:30:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:30:00.020Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T09:30:00.083Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:35:00.003Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T09:40:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:40:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T09:40:00.087Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:45:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T09:50:00.010Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:50:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T09:50:00.075Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T09:55:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:00:00.012Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:00:00.017Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:00:00.091Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:05:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:10:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:10:00.024Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:10:00.094Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:15:00.024Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:20:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:20:00.026Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:20:00.210Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:25:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:30:00.015Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:30:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:30:00.081Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:35:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:40:00.013Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:40:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:40:00.086Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:45:00.011Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T10:50:00.021Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:50:00.039Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T10:50:00.119Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T10:55:00.019Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:00:00.009Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:00:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:00:00.093Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:05:00.011Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:10:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:10:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:10:00.092Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:15:00.028Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:20:00.019Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:20:00.028Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:20:00.097Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:25:00.018Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:30:00.033Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:30:00.045Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:30:00.120Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:35:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:40:00.007Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:40:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:40:00.135Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:45:00.057Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T11:50:00.010Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:50:00.023Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T11:50:00.109Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T11:55:00.029Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:00:00.009Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:00:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:00:00.080Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:05:00.028Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:10:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:10:00.023Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:10:00.104Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:15:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:20:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:20:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:20:00.101Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:25:00.018Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:30:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:30:00.027Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:30:00.119Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:35:00.012Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:40:00.005Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:40:00.009Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:40:00.130Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:45:00.026Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T12:50:00.008Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:50:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T12:50:00.161Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T12:55:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T13:00:00.004Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:00:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T13:00:00.094Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:05:00.005Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T13:10:00.025Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:10:00.043Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T13:10:00.149Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:15:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T13:20:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:20:00.017Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T13:20:00.067Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:25:00.017Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T13:30:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:30:00.029Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T13:30:00.080Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:35:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T13:40:00.012Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:40:00.017Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T13:40:00.062Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T13:45:00.006Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:02:23.841Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:02:24.078Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:02:24.593Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:05:00.004Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:10:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:10:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:10:00.087Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:15:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:20:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:20:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:20:00.107Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:25:00.064Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:30:00.052Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:30:00.135Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:30:00.443Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:35:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:40:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:40:00.034Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:40:00.101Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:45:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T18:50:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:50:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T18:50:00.080Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T18:55:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:00:00.006Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:00:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:00:00.064Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:05:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:10:00.013Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:10:00.035Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:10:00.098Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:15:00.018Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:20:00.025Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:20:00.044Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:20:00.105Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:25:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:30:00.016Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:30:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:30:00.115Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:35:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:40:00.024Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:40:00.044Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:40:00.104Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:45:00.015Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T19:50:00.007Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:50:00.012Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T19:50:00.064Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T19:55:00.014Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:00:00.024Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:00:00.041Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:00:00.104Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:05:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:10:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:10:00.040Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:10:00.091Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:15:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:20:00.015Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:20:00.034Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:20:00.078Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:25:00.010Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:30:00.009Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:30:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:30:00.132Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:35:00.018Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:40:00.016Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:40:00.023Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:40:00.096Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:45:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T20:50:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:50:00.027Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T20:50:00.083Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T20:55:00.024Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T21:00:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:00:00.026Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T21:00:00.087Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:05:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T21:10:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:10:00.018Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T21:10:00.075Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:15:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:20:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T21:20:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T21:20:00.065Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:25:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T21:30:00.028Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:30:00.050Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T21:30:00.154Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:35:00.023Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T21:40:00.015Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T21:40:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T21:40:00.114Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T22:23:06.254Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T22:23:07.531Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T22:23:07.533Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T22:23:07.534Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T22:23:07.535Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T22:23:09.410Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T22:23:09.411Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T22:23:09.414Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T22:23:09.428Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T22:23:09.433Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T22:23:09.434Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T22:23:09.435Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T22:23:09.435Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T22:23:09.457Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T22:23:09.464Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T22:23:09.464Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:25:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:30:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T22:30:00.025Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T22:30:00.077Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:35:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T22:40:00.014Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:40:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T22:40:00.101Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:45:00.037Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T22:50:00.031Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:50:00.043Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T22:50:00.094Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T22:55:00.028Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:00:00.013Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:00:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:00:00.089Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:03:40.613Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:03:40.718Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:03:40.719Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:03:40.720Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:03:40.722Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:03:40.979Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:03:40.979Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:03:40.981Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:03:40.992Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:03:40.995Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:03:40.995Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:03:40.996Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:03:41.002Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:03:41.016Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:03:41.022Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:03:41.022Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:04:15.558Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:04:15.660Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:04:15.661Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:04:15.662Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:04:15.663Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:04:15.900Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:04:15.900Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:04:15.901Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:04:15.910Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:04:15.914Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:04:15.915Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:04:15.915Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:04:15.916Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:04:15.931Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:04:15.935Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:04:15.935Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:05:00.059Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:05:25.576Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:05:25.855Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:05:25.856Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:05:25.857Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:05:25.858Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:05:26.090Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:05:26.091Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:05:26.092Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:05:26.102Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:05:26.104Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:05:26.105Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:05:26.106Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:05:26.106Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:05:26.149Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:05:26.155Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:05:26.156Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:05:30.739Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:05:30.867Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:05:30.871Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:05:30.873Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:05:30.875Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:05:31.191Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:05:31.191Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:05:31.193Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:05:31.205Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:05:31.209Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:05:31.210Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:05:31.210Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:05:31.211Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:05:31.232Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:05:31.237Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:05:31.237Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:10:00.042Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:10:00.076Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:10:00.121Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:12:36.508Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:12:36.633Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:12:36.634Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:12:36.635Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:12:36.635Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:12:37.327Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:12:37.328Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:12:37.331Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:12:37.356Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:12:37.365Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:12:37.368Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:12:37.369Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:12:37.370Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:12:37.411Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:12:37.426Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:12:37.427Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:14:17.575Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:14:17.757Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:14:17.759Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:14:17.760Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:14:17.762Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:14:18.031Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:14:18.032Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:14:18.033Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:14:18.041Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:14:18.045Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:14:18.047Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:14:18.048Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:14:18.048Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:14:18.065Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:14:18.068Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:14:18.069Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:14:56.191Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:14:56.313Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:14:56.317Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:14:56.319Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:14:56.320Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:14:57.141Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:14:57.142Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:14:57.144Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:14:57.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:14:57.161Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:14:57.163Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:14:57.164Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:14:57.165Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:14:57.182Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:14:57.186Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:14:57.186Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:15:00.038Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:16:55.406Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:16:55.505Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:16:55.507Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:16:55.508Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:16:55.508Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:16:55.738Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:16:55.738Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:16:55.739Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:16:55.748Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:16:55.753Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:16:55.754Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:16:55.754Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:16:55.754Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:16:55.769Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:16:55.775Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:16:55.776Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:20:00.027Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:20:00.053Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:20:00.095Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:20:26.212Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:20:26.499Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:20:26.501Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:20:26.502Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:20:26.502Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:20:26.749Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:20:26.750Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:20:26.752Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:20:26.762Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:20:26.766Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:20:26.767Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:20:26.768Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:20:26.768Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:20:26.786Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:20:26.790Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:20:26.790Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:21:19.710Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:21:19.832Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:21:19.833Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:21:19.834Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:21:19.836Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:21:20.076Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:21:20.076Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:21:20.077Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:21:20.085Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:21:20.093Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:21:20.093Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:21:20.094Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:21:20.094Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:21:20.112Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:21:20.117Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:21:20.117Z"}
