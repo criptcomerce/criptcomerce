@@ -38,31 +38,41 @@ export class OrderService {
         price_currency: 'USD',
         pay_currency: dto.currency,
         order_id: order.id,
-        ipn_callback_url: `${process.env.BASE_URL || 'http://localhost:3000'}/webhooks/nowpayments`,
+      ipn_callback_url: `${env.BASE_URL || 'http://localhost:3000'}/webhooks/nowpayments`,
       });
       
-      if (!invoice?.pay_address || !invoice?.pay_amount) {
-        throw new Error("Invoice inválida retornada pelo gateway");
+      this.logger.log(`Invoice recebida: ${JSON.stringify(invoice)}`);
+      
+      // NOWPayments não retorna endereço imediatamente
+      // O endereço é gerado quando o usuário acessa a invoice_url
+      if (!invoice?.invoice_url) {
+        throw new Error("Invoice inválida: URL da invoice não encontrada");
       }
     } catch (err) {
       await this.orderRepo.updateStatus(order.id, OrderStatus.EXPIRED);
       throw new BadRequestException(`Erro ao criar pagamento: ${err.message}`);
     }
 
+    // NOWPayments não retorna endereço/valor imediatamente
+    // Eles são gerados quando o usuário acessa a invoice_url
+    const paymentAddress = invoice.pay_address || 'pending';
+    const paymentAmount = parseFloat(invoice.price_amount) || dto.amount_usd;
+    
     const payment = await this.paymentRepo.create({
       order: order,
       invoice_id: invoice.id.toString(),
-      payment_address: invoice.pay_address,
-      payment_amount: invoice.pay_amount,
+      payment_address: paymentAddress,
+      payment_amount: paymentAmount,
+      currency: dto.currency,
       expiration_time: expiresAt,
     });
 
-    this.logger.log(`Pagamento criado | invoice_id: ${invoice.id} | address: ${invoice.pay_address}`);
+    this.logger.log(`Pagamento criado | invoice_id: ${invoice.id} | invoice_url: ${invoice.invoice_url}`);
 
     return {
       order_id: order.id,
-      address: invoice.pay_address,
-      amount: invoice.pay_amount,
+      address: paymentAddress,
+      amount: paymentAmount,
       currency: dto.currency,
       invoice_url: invoice.invoice_url,
       expires_at: expiresAt,

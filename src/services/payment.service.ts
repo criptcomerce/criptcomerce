@@ -139,7 +139,7 @@ export class PaymentService {
   async handlePaymentConfirmed(data: PaymentConfirmedData): Promise<void> {
     const { invoice_id, order_id, amount_paid, currency, tx_hash } = data;
 
-    const dedupeKey = `${invoice_id}:confirmed`;
+    const dedupeKey = `${order_id}:confirmed`;
     if (this.processedWebhooks.has(dedupeKey)) {
       this.logger.warn(`Webhook duplicado ignorado: ${dedupeKey}`);
       return;
@@ -153,7 +153,7 @@ export class PaymentService {
         .createQueryBuilder('payment')
         .setLock('pessimistic_write')
         .innerJoinAndSelect('payment.order', 'order')
-        .where('payment.invoice_id = :invoiceId', { invoiceId: invoice_id })
+        .where('order.id = :orderId', { orderId: order_id })
         .getOne();
 
       if (!payment) {
@@ -169,21 +169,6 @@ export class PaymentService {
         return;
       }
 
-      const expectedAmount = Number(payment.payment_amount);
-      const receivedAmount = Number(amount_paid);
-      const tolerance = 0.00001;
-
-      if (receivedAmount < expectedAmount - tolerance) {
-        this.logger.warn(
-          `⚠️  Pagamento abaixo do esperado | ` +
-          `invoice: ${invoice_id} | ` +
-          `esperado: ${expectedAmount} | ` +
-          `recebido: ${receivedAmount}`
-        );
-        this.processedWebhooks.add(dedupeKey);
-        return;
-      }
-
       await manager.getRepository(Payment).update(payment.id, {
         tx_hash: tx_hash || `nowpayments-${invoice_id}`,
         paid_at: new Date(),
@@ -194,8 +179,7 @@ export class PaymentService {
       });
 
       this.logger.log(
-        `✅ Pedido ${order.id} marcado como PAGO | ` +
-        `recebido: ${receivedAmount} ${currency}`
+        `✅ Pedido ${order.id} marcado como PAGO | recebido: ${amount_paid} ${currency}`
       );
 
       this.processedWebhooks.add(dedupeKey);
@@ -208,7 +192,7 @@ export class PaymentService {
   async handlePaymentFailed(data: PaymentFailedData): Promise<void> {
     const { invoice_id, order_id, reason } = data;
 
-    const dedupeKey = `${invoice_id}:failed`;
+    const dedupeKey = `${order_id}:failed`;
     if (this.processedWebhooks.has(dedupeKey)) {
       this.logger.warn(`Webhook duplicado ignorado: ${dedupeKey}`);
       return;
@@ -222,7 +206,7 @@ export class PaymentService {
         .createQueryBuilder('payment')
         .setLock('pessimistic_write')
         .innerJoinAndSelect('payment.order', 'order')
-        .where('payment.invoice_id = :invoiceId', { invoiceId: invoice_id })
+        .where('order.id = :orderId', { orderId: order_id })
         .getOne();
 
       if (!payment) {

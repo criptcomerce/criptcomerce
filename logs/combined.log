@@ -553,3 +553,887 @@
 {"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:21:20.112Z"}
 {"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:21:20.117Z"}
 {"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:21:20.117Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-11T23:22:21.358Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:22:21.471Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-11T23:22:21.472Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-11T23:22:21.473Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-11T23:22:21.474Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-11T23:22:21.670Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-11T23:22:21.670Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-11T23:22:21.671Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-11T23:22:21.680Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-11T23:22:21.684Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-11T23:22:21.685Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-11T23:22:21.685Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-11T23:22:21.685Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-11T23:22:21.700Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-11T23:22:21.704Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-11T23:22:21.705Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:25:00.011Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:30:00.023Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:30:00.042Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:30:00.093Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:35:00.012Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:40:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:40:00.030Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:40:00.074Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:45:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-11T23:50:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:50:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-11T23:50:00.081Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-11T23:55:00.037Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T00:00:00.010Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:00:00.019Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T00:00:00.068Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:05:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T00:10:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:10:00.033Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T00:10:00.134Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:15:00.014Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T00:20:00.014Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:20:00.036Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T00:20:00.099Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:25:00.007Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T00:30:00.031Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T00:30:00.043Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T00:30:00.111Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:00:52.549Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:00:53.072Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:00:53.074Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:00:53.075Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:00:53.076Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:00:53.318Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:00:53.318Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:00:53.319Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:00:53.330Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:00:53.333Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:00:53.334Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:00:53.334Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:00:53.335Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:00:53.349Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:00:53.355Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:00:53.355Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:73:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:01:06.186Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:73:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:01:55.729Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:73:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:03:07.897Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:04:11.977Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:04:12.139Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:04:12.141Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:04:12.142Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:04:12.143Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:04:12.503Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:04:12.504Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:04:12.509Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:04:12.524Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:04:12.528Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:04:12.529Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:04:12.530Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:04:12.531Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:04:12.556Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:04:12.562Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:04:12.562Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"test\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"test\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:73:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:04:29.998Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:05:20.463Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:05:20.570Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:05:20.572Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:05:20.573Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:05:20.574Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:05:20.808Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:05:20.809Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:05:20.809Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:05:20.819Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:05:20.822Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:05:20.823Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:05:20.824Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:05:20.824Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:05:20.841Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:05:20.844Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:05:20.845Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":10,\"currency\":\"USDT\"}","timestamp":"2026-03-12T01:08:54.028Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em USDT","timestamp":"2026-03-12T01:08:54.029Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 0c329ed1-54a6-41f4-9903-f0e89e18dab8","timestamp":"2026-03-12T01:08:54.425Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 0c329ed1-54a6-41f4-9903-f0e89e18dab8","timestamp":"2026-03-12T01:08:54.426Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"0c329ed1-54a6-41f4-9903-f0e89e18dab8"}],"timestamp":"2026-03-12T01:08:55.499Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:10:00.032Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T01:10:00.059Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T01:10:00.147Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"USDT\",\"amount_usd\":10}","timestamp":"2026-03-12T01:10:15.340Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em USDT","timestamp":"2026-03-12T01:10:15.341Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 83e94bea-f91f-462b-b85e-464af54a57b5","timestamp":"2026-03-12T01:10:15.432Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 83e94bea-f91f-462b-b85e-464af54a57b5","timestamp":"2026-03-12T01:10:15.433Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"83e94bea-f91f-462b-b85e-464af54a57b5"}],"timestamp":"2026-03-12T01:10:16.555Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:10:59.640Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:10:59.744Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:10:59.745Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:10:59.747Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:10:59.748Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:11:00.025Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:11:00.025Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:11:00.027Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:11:00.039Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:11:00.042Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:11:00.044Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:11:00.044Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:11:00.045Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:11:00.061Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:11:00.067Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:11:00.067Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"USDT\",\"amount_usd\":10}","timestamp":"2026-03-12T01:11:23.768Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em USDT","timestamp":"2026-03-12T01:11:23.768Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: d3c3a982-d6f5-4a29-80e9-bae9ef53d448","timestamp":"2026-03-12T01:11:24.131Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order d3c3a982-d6f5-4a29-80e9-bae9ef53d448","timestamp":"2026-03-12T01:11:24.133Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"d3c3a982-d6f5-4a29-80e9-bae9ef53d448"}],"timestamp":"2026-03-12T01:11:24.498Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"BTC\",\"amount_usd\":10}","timestamp":"2026-03-12T01:11:44.499Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em BTC","timestamp":"2026-03-12T01:11:44.499Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 41389bb6-58b0-4007-b479-e194de00df79","timestamp":"2026-03-12T01:11:44.587Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 41389bb6-58b0-4007-b479-e194de00df79","timestamp":"2026-03-12T01:11:44.587Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 6149808459 | address: undefined","timestamp":"2026-03-12T01:11:45.515Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:12:22.734Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:12:22.862Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:12:22.863Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:12:22.864Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:12:22.865Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:12:23.133Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:12:23.134Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:12:23.138Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:12:23.155Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:12:23.159Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:12:23.161Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:12:23.161Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:12:23.165Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:12:23.189Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:12:23.193Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:12:23.194Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:12:56.688Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:12:57.203Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:12:57.206Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:12:57.213Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:12:57.227Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:12:57.546Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:12:57.547Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:12:57.553Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:12:57.580Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:12:57.585Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:12:57.586Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:12:57.587Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:12:57.588Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:12:57.725Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:12:57.736Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:12:57.742Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"BTC\",\"amount_usd\":10}","timestamp":"2026-03-12T01:14:16.660Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em BTC","timestamp":"2026-03-12T01:14:16.662Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: a72a65b9-7ce9-4417-a112-2583940290f0","timestamp":"2026-03-12T01:14:16.822Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order a72a65b9-7ce9-4417-a112-2583940290f0","timestamp":"2026-03-12T01:14:16.824Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 5423934886 | address: undefined","timestamp":"2026-03-12T01:14:18.185Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"5423934886\",\"token_id\":\"6378208829\",\"order_id\":\"a72a65b9-7ce9-4417-a112-2583940290f0\",\"order_description\":\"Pedido a72a65b9-7ce9-4417-a112-2583940290f0\",\"price_amount\":\"10\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=5423934886\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-12T01:14:17.731Z\",\"updated_at\":\"2026-03-12T01:14:17.731Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-12T01:14:18.186Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:14:46.175Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:14:46.381Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:14:46.383Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:14:46.385Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:14:46.387Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:14:46.790Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:14:46.792Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:14:46.795Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:14:46.818Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:14:46.827Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:14:46.832Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:14:46.834Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:14:46.840Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:14:46.872Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:14:46.882Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:14:46.882Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:15:05.891Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:15:06.052Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:15:06.053Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:15:06.054Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:15:06.055Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:15:06.360Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:15:06.361Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:15:06.362Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:15:06.370Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:15:06.375Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:15:06.375Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:15:06.376Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:15:06.377Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:15:06.392Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:15:06.397Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:15:06.398Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"BTC\",\"amount_usd\":10}","timestamp":"2026-03-12T01:15:50.841Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em BTC","timestamp":"2026-03-12T01:15:50.842Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 0c604f1d-2195-48ad-b622-41657a4889d2","timestamp":"2026-03-12T01:15:51.376Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 0c604f1d-2195-48ad-b622-41657a4889d2","timestamp":"2026-03-12T01:15:51.378Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4369989563 | address: undefined","timestamp":"2026-03-12T01:15:52.349Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4369989563\",\"token_id\":\"6378208829\",\"order_id\":\"0c604f1d-2195-48ad-b622-41657a4889d2\",\"order_description\":\"Pedido 0c604f1d-2195-48ad-b622-41657a4889d2\",\"price_amount\":\"10\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4369989563\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-12T01:15:51.932Z\",\"updated_at\":\"2026-03-12T01:15:51.932Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-12T01:15:52.350Z"}
+{"context":"ExceptionsHandler","level":"error","message":"null value in column \"currency\" of relation \"payments\" violates not-null constraint","stack":["QueryFailedError: null value in column \"currency\" of relation \"payments\" violates not-null constraint\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at InsertQueryBuilder.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\InsertQueryBuilder.ts:164:33)\n    at SubjectExecutor.executeInsertOperations (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\SubjectExecutor.ts:435:42)\n    at SubjectExecutor.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\SubjectExecutor.ts:137:9)\n    at EntityPersistExecutor.execute (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\persistence\\EntityPersistExecutor.ts:182:21)\n    at OrderService.createOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:61:21)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:15:52.664Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:16:23.095Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:16:23.294Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:16:23.296Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:16:23.297Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:16:23.298Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:16:23.615Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:16:23.616Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:16:23.617Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:16:23.630Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:16:23.633Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:16:23.634Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:16:23.634Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:16:23.635Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:16:23.652Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:16:23.658Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:16:23.659Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"BTC\",\"amount_usd\":10}","timestamp":"2026-03-12T01:17:12.884Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em BTC","timestamp":"2026-03-12T01:17:12.888Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 667e22b6-7b21-425f-9caf-847a21ac42fc","timestamp":"2026-03-12T01:17:13.045Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 667e22b6-7b21-425f-9caf-847a21ac42fc","timestamp":"2026-03-12T01:17:13.047Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4930504519 | address: undefined","timestamp":"2026-03-12T01:17:13.996Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4930504519\",\"token_id\":\"6378208829\",\"order_id\":\"667e22b6-7b21-425f-9caf-847a21ac42fc\",\"order_description\":\"Pedido 667e22b6-7b21-425f-9caf-847a21ac42fc\",\"price_amount\":\"10\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4930504519\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-12T01:17:13.586Z\",\"updated_at\":\"2026-03-12T01:17:13.586Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-12T01:17:13.997Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4930504519 | invoice_url: https://nowpayments.io/payment/?iid=4930504519","timestamp":"2026-03-12T01:17:14.131Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"health-check\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"health-check\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:83:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:18:50.213Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:19:22.007Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:19:22.118Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:19:22.119Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:19:22.120Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:19:22.121Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:19:22.451Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:19:22.453Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:19:22.454Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:19:22.464Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:19:22.471Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:19:22.472Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:19:22.473Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:19:22.474Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:19:22.492Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:19:22.497Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:19:22.497Z"}
+{"context":"ExceptionsHandler","level":"error","message":"invalid input syntax for type uuid: \"health-check\"","stack":["QueryFailedError: invalid input syntax for type uuid: \"health-check\"\n    at PostgresQueryRunner.query (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\driver\\postgres\\PostgresQueryRunner.ts:325:19)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at SelectQueryBuilder.loadRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3868:25)\n    at SelectQueryBuilder.executeEntitiesAndRawResults (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:3614:26)\n    at SelectQueryBuilder.getRawAndEntities (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1671:29)\n    at SelectQueryBuilder.getOne (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\query-builder\\SelectQueryBuilder.ts:1698:25)\n    at OrderService.getOrder (C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\src\\services\\order.service.ts:83:19)\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-execution-context.js:46:28\n    at C:\\Users\\flavi\\Desktop\\freela\\cript-2\\crypto-payment-backend\\crypto-backend\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:17"],"timestamp":"2026-03-12T01:19:27.092Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-12T01:21:36.305Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:21:36.406Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-12T01:21:36.407Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-12T01:21:36.407Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-12T01:21:36.408Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-12T01:21:36.649Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-12T01:21:36.649Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-12T01:21:36.651Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-12T01:21:36.663Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-12T01:21:36.667Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-12T01:21:36.668Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-12T01:21:36.668Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-12T01:21:36.671Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-12T01:21:36.688Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-12T01:21:36.692Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-12T01:21:36.693Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"USDT\",\"amount_usd\":10}","timestamp":"2026-03-12T01:23:28.858Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em USDT","timestamp":"2026-03-12T01:23:28.859Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: dd3cad8b-be7b-44b7-b4ba-f3355d958a72","timestamp":"2026-03-12T01:23:28.983Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order dd3cad8b-be7b-44b7-b4ba-f3355d958a72","timestamp":"2026-03-12T01:23:28.983Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"dd3cad8b-be7b-44b7-b4ba-f3355d958a72"}],"timestamp":"2026-03-12T01:23:29.926Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"currency\":\"BTC\",\"amount_usd\":10}","timestamp":"2026-03-12T01:24:42.634Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 10 USD em BTC","timestamp":"2026-03-12T01:24:42.634Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 620ec524-832d-42bc-b595-7ee75fe67f7f","timestamp":"2026-03-12T01:24:42.745Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 620ec524-832d-42bc-b595-7ee75fe67f7f","timestamp":"2026-03-12T01:24:42.746Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 5150276201 | address: undefined","timestamp":"2026-03-12T01:24:43.625Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"5150276201\",\"token_id\":\"6378208829\",\"order_id\":\"620ec524-832d-42bc-b595-7ee75fe67f7f\",\"order_description\":\"Pedido 620ec524-832d-42bc-b595-7ee75fe67f7f\",\"price_amount\":\"10\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=5150276201\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-12T01:24:43.214Z\",\"updated_at\":\"2026-03-12T01:24:43.214Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-12T01:24:43.626Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 5150276201 | invoice_url: https://nowpayments.io/payment/?iid=5150276201","timestamp":"2026-03-12T01:24:43.719Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:25:00.030Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:30:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T01:30:00.042Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T01:30:00.109Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:35:00.023Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T01:40:00.023Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:40:00.039Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T01:40:00.090Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:45:00.194Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T01:50:00.035Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:50:00.042Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"1 pedido(s) a expirar","timestamp":"2026-03-12T01:50:00.100Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T01:50:00.104Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: 667e22b6-7b21-425f-9caf-847a21ac42fc","timestamp":"2026-03-12T01:50:00.143Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T01:55:00.006Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T01:55:00.051Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: 620ec524-832d-42bc-b595-7ee75fe67f7f","timestamp":"2026-03-12T01:55:00.094Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T02:00:00.031Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:00:00.062Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:00:00.116Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T02:00:00.118Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:05:00.015Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:05:00.097Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T02:10:00.034Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:10:00.058Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T02:10:00.147Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:10:00.151Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:15:00.014Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:15:00.094Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:20:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T02:20:00.016Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:20:00.065Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T02:20:00.075Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:25:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:25:00.057Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:30:00.031Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T02:30:00.071Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:30:00.128Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T02:30:00.147Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:35:00.027Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:35:00.132Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T02:40:00.016Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T02:40:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T02:40:00.117Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T02:40:00.122Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T05:29:33.787Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T05:29:33.908Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T05:29:37.147Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T05:29:37.224Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-12T05:30:00.011Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-12T05:30:00.023Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-12T05:30:00.457Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-12T05:30:00.560Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:09:38.213Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:09:39.250Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:09:39.251Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:09:39.252Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:09:39.253Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (1)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:39.345Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (2)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:42.362Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (3)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:45.370Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (4)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:48.393Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (5)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:51.400Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (6)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:54.417Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (7)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:09:57.430Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (8)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:10:00.448Z"}
+{"context":"TypeOrmModule","level":"error","message":"Unable to connect to the database. Retrying (9)...","stack":["AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"],"timestamp":"2026-03-16T18:10:03.459Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:21:43.822Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:21:44.159Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:21:44.160Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:21:44.162Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:21:44.164Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T18:21:47.919Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:21:47.921Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T18:21:47.950Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T18:21:47.999Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T18:21:48.035Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T18:21:48.088Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T18:21:48.105Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T18:21:48.134Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T18:21:48.299Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T18:21:48.504Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T18:21:48.616Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:25:00.033Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:25:00.264Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T18:30:00.024Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:30:00.041Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:30:00.098Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T18:30:00.104Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:35:00.019Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:35:00.086Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T18:35:08.170Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T18:35:08.171Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: e90e588a-5cd8-40d4-a938-5d6d02267933","timestamp":"2026-03-16T18:35:08.287Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order e90e588a-5cd8-40d4-a938-5d6d02267933","timestamp":"2026-03-16T18:35:08.288Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 5694456302 | address: undefined","timestamp":"2026-03-16T18:35:10.026Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"5694456302\",\"token_id\":\"6378208829\",\"order_id\":\"e90e588a-5cd8-40d4-a938-5d6d02267933\",\"order_description\":\"Pedido e90e588a-5cd8-40d4-a938-5d6d02267933\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=5694456302\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T18:35:09.401Z\",\"updated_at\":\"2026-03-16T18:35:09.401Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T18:35:10.027Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 5694456302 | invoice_url: https://nowpayments.io/payment/?iid=5694456302","timestamp":"2026-03-16T18:35:10.080Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T18:40:00.038Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:40:00.053Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:40:00.167Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T18:40:00.170Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:40:44.207Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:40:44.300Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:40:44.301Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:40:44.302Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:40:44.303Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T18:40:44.536Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:40:44.537Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T18:40:44.538Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T18:40:44.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T18:40:44.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T18:40:44.556Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T18:40:44.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T18:40:44.558Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T18:40:44.577Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T18:40:44.583Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T18:40:44.583Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T18:41:20.375Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T18:41:20.376Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 4e55fc80-3fc3-4bf5-a3ae-eb8bafa05e0c","timestamp":"2026-03-16T18:41:20.467Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 4e55fc80-3fc3-4bf5-a3ae-eb8bafa05e0c","timestamp":"2026-03-16T18:41:20.468Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_API_KEY","message":"Invalid api key","status":false,"statusCode":403},"order_id":"4e55fc80-3fc3-4bf5-a3ae-eb8bafa05e0c"}],"timestamp":"2026-03-16T18:41:21.603Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:45:00.027Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:45:00.172Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:48:30.680Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:48:30.859Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:48:30.862Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:48:30.870Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:48:30.874Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T18:48:31.223Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:48:31.224Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T18:48:31.226Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T18:48:31.248Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T18:48:31.254Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T18:48:31.255Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T18:48:31.257Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T18:48:31.258Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T18:48:31.354Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T18:48:31.400Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T18:48:31.403Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T18:48:46.817Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T18:48:46.818Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 09886cac-eea7-4bfb-b7b4-63d54ef528ad","timestamp":"2026-03-16T18:48:46.913Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 09886cac-eea7-4bfb-b7b4-63d54ef528ad","timestamp":"2026-03-16T18:48:46.914Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_API_KEY","message":"Invalid api key","status":false,"statusCode":403},"order_id":"09886cac-eea7-4bfb-b7b4-63d54ef528ad"}],"timestamp":"2026-03-16T18:48:47.934Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:50:00.013Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T18:50:00.043Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:50:00.186Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T18:50:00.201Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:53:32.896Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:53:33.078Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:53:33.079Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:53:33.080Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:53:33.081Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T18:53:33.579Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:53:33.580Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T18:53:33.583Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T18:53:33.605Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T18:53:33.651Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T18:53:33.690Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T18:53:33.702Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T18:53:33.727Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T18:53:33.760Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T18:53:33.770Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T18:53:33.771Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T18:53:44.034Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T18:53:44.034Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 9f366005-34cb-4a2a-b863-6c878a22840c","timestamp":"2026-03-16T18:53:44.116Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 9f366005-34cb-4a2a-b863-6c878a22840c","timestamp":"2026-03-16T18:53:44.116Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 6126103875 | address: undefined","timestamp":"2026-03-16T18:53:45.376Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"6126103875\",\"token_id\":\"6378208829\",\"order_id\":\"9f366005-34cb-4a2a-b863-6c878a22840c\",\"order_description\":\"Pedido 9f366005-34cb-4a2a-b863-6c878a22840c\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=6126103875\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T18:53:45.237Z\",\"updated_at\":\"2026-03-16T18:53:45.237Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T18:53:45.377Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 6126103875 | invoice_url: https://nowpayments.io/payment/?iid=6126103875","timestamp":"2026-03-16T18:53:45.415Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T18:55:00.011Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T18:55:00.069Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T18:58:34.712Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:58:34.821Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T18:58:34.822Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T18:58:34.823Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T18:58:34.823Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T18:58:35.070Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T18:58:35.071Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T18:58:35.072Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T18:58:35.085Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T18:58:35.088Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T18:58:35.089Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T18:58:35.090Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T18:58:35.091Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T18:58:35.112Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T18:58:35.119Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T18:58:35.119Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T18:58:42.696Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T18:58:42.697Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: f4d850d6-ed3c-4a3a-ab3b-0946112ef65b","timestamp":"2026-03-16T18:58:42.793Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order f4d850d6-ed3c-4a3a-ab3b-0946112ef65b","timestamp":"2026-03-16T18:58:42.795Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4938846951 | address: undefined","timestamp":"2026-03-16T18:58:43.992Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4938846951\",\"token_id\":\"6378208829\",\"order_id\":\"f4d850d6-ed3c-4a3a-ab3b-0946112ef65b\",\"order_description\":\"Pedido f4d850d6-ed3c-4a3a-ab3b-0946112ef65b\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4938846951\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T18:58:43.837Z\",\"updated_at\":\"2026-03-16T18:58:43.837Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T18:58:43.993Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4938846951 | invoice_url: https://nowpayments.io/payment/?iid=4938846951","timestamp":"2026-03-16T18:58:44.042Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:00:00.010Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:00:00.025Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T19:00:00.075Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:00:00.089Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:03:52.579Z"}
+{"context":"ModuleTokenFactory","level":"warn","message":"The module \"TypeOrmModule\" is taking 44.25ms to serialize, this may be caused by larger objects statically assigned to the module. More details: https://github.com/nestjs/nest/issues/12738","timestamp":"2026-03-16T19:03:52.824Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:03:53.096Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:03:53.098Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:03:53.099Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:03:53.100Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:03:53.549Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:03:53.550Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:03:53.553Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:03:53.571Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:03:53.579Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:03:53.586Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:03:53.587Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:03:53.588Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:03:53.637Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:03:53.646Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:03:53.648Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:03:58.044Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:03:58.187Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:03:58.189Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:03:58.189Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:03:58.190Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:03:58.538Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:03:58.539Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:03:58.545Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:03:58.563Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:03:58.574Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:03:58.576Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:03:58.576Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:03:58.577Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:03:58.624Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:03:58.629Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:03:58.630Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:04:08.954Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:04:09.116Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:04:09.118Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:04:09.119Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:04:09.120Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:04:09.957Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:04:09.959Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:04:09.970Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:04:10.006Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:04:10.039Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:04:10.084Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:04:10.092Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:04:10.118Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:04:10.231Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:04:10.242Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:04:10.254Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:04:14.383Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:04:14.532Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:04:14.534Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:04:14.535Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:04:14.536Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:04:14.912Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:04:14.913Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:04:14.917Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:04:14.936Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:04:14.946Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:04:14.948Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:04:14.950Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:04:14.953Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:04:14.986Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:04:14.995Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:04:14.996Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:05:00.017Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"2 pedido(s) a expirar","timestamp":"2026-03-16T19:05:00.071Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:05:37.736Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:05:37.737Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: cf04f933-55e2-44f7-9f9a-5ac959f0ec9a","timestamp":"2026-03-16T19:05:37.806Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order cf04f933-55e2-44f7-9f9a-5ac959f0ec9a","timestamp":"2026-03-16T19:05:37.806Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 6278010214 | address: undefined","timestamp":"2026-03-16T19:05:39.131Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"6278010214\",\"token_id\":\"6378208829\",\"order_id\":\"cf04f933-55e2-44f7-9f9a-5ac959f0ec9a\",\"order_description\":\"Pedido cf04f933-55e2-44f7-9f9a-5ac959f0ec9a\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=6278010214\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:05:38.937Z\",\"updated_at\":\"2026-03-16T19:05:38.937Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:05:39.133Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 6278010214 | invoice_url: https://nowpayments.io/payment/?iid=6278010214","timestamp":"2026-03-16T19:05:39.201Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:05:40.248Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"error","message":"❌ Assinatura inválida no webhook NOWPayments","stack":[null],"timestamp":"2026-03-16T19:05:40.253Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:07:23.576Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:07:23.683Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:07:23.684Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:07:23.685Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:07:23.686Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:07:23.917Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:07:23.918Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:07:23.919Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:07:23.933Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:07:23.939Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:07:23.942Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:07:23.942Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:07:23.944Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:07:23.963Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:07:23.967Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:07:23.969Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:08:03.959Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:08:03.960Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: ad883a28-e785-4d45-ab2d-f6280a026392","timestamp":"2026-03-16T19:08:04.056Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order ad883a28-e785-4d45-ab2d-f6280a026392","timestamp":"2026-03-16T19:08:04.058Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4869579556 | address: undefined","timestamp":"2026-03-16T19:08:05.202Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4869579556\",\"token_id\":\"6378208829\",\"order_id\":\"ad883a28-e785-4d45-ab2d-f6280a026392\",\"order_description\":\"Pedido ad883a28-e785-4d45-ab2d-f6280a026392\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4869579556\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:08:05.056Z\",\"updated_at\":\"2026-03-16T19:08:05.056Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:08:05.203Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4869579556 | invoice_url: https://nowpayments.io/payment/?iid=4869579556","timestamp":"2026-03-16T19:08:05.266Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:08:47.248Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:08:47.249Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e","timestamp":"2026-03-16T19:08:47.403Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e","timestamp":"2026-03-16T19:08:47.406Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4319863001 | address: undefined","timestamp":"2026-03-16T19:08:48.587Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4319863001\",\"token_id\":\"6378208829\",\"order_id\":\"8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e\",\"order_description\":\"Pedido 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4319863001\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:08:48.428Z\",\"updated_at\":\"2026-03-16T19:08:48.428Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:08:48.591Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4319863001 | invoice_url: https://nowpayments.io/payment/?iid=4319863001","timestamp":"2026-03-16T19:08:48.681Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:08:49.739Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:08:49.741Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e | status: finished","timestamp":"2026-03-16T19:08:49.743Z"}
+{"context":"PaymentService","level":"info","message":"Processando pagamento confirmado | order: 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e | invoice: 999999999","timestamp":"2026-03-16T19:08:49.744Z"}
+{"context":"PaymentService","level":"error","message":"Pagamento não encontrado para invoice_id: 999999999","stack":[null],"timestamp":"2026-03-16T19:08:49.764Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:10:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:10:00.063Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"3 pedido(s) a expirar","timestamp":"2026-03-16T19:10:00.144Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:10:00.164Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: e90e588a-5cd8-40d4-a938-5d6d02267933","timestamp":"2026-03-16T19:10:00.200Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:11:23.837Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:11:23.838Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: fb8f254c-d2c6-47fe-96a2-4087fb20b68d","timestamp":"2026-03-16T19:11:23.901Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order fb8f254c-d2c6-47fe-96a2-4087fb20b68d","timestamp":"2026-03-16T19:11:23.902Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 6017897445 | address: undefined","timestamp":"2026-03-16T19:11:24.757Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"6017897445\",\"token_id\":\"6378208829\",\"order_id\":\"fb8f254c-d2c6-47fe-96a2-4087fb20b68d\",\"order_description\":\"Pedido fb8f254c-d2c6-47fe-96a2-4087fb20b68d\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=6017897445\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:11:24.333Z\",\"updated_at\":\"2026-03-16T19:11:24.333Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:11:24.758Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 6017897445 | invoice_url: https://nowpayments.io/payment/?iid=6017897445","timestamp":"2026-03-16T19:11:24.812Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:11:25.848Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:11:25.849Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: fb8f254c-d2c6-47fe-96a2-4087fb20b68d | status: finished","timestamp":"2026-03-16T19:11:25.850Z"}
+{"context":"PaymentService","level":"info","message":"Processando pagamento confirmado | order: fb8f254c-d2c6-47fe-96a2-4087fb20b68d | invoice: 999999999","timestamp":"2026-03-16T19:11:25.851Z"}
+{"context":"PaymentService","level":"error","message":"Pagamento não encontrado para invoice_id: 999999999","stack":[null],"timestamp":"2026-03-16T19:11:25.870Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:14:34.429Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:14:34.675Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:14:34.677Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:14:34.683Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:14:34.692Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:14:35.247Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:14:35.249Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:14:35.251Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:14:35.282Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:14:35.294Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:14:35.298Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:14:35.299Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:14:35.301Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:14:35.349Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:14:35.362Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:14:35.366Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:14:40.616Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:14:40.617Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 8fe52174-6b6a-4839-b69a-a0f5e59062e5","timestamp":"2026-03-16T19:14:40.699Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 8fe52174-6b6a-4839-b69a-a0f5e59062e5","timestamp":"2026-03-16T19:14:40.699Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4849828418 | address: undefined","timestamp":"2026-03-16T19:14:42.020Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4849828418\",\"token_id\":\"6378208829\",\"order_id\":\"8fe52174-6b6a-4839-b69a-a0f5e59062e5\",\"order_description\":\"Pedido 8fe52174-6b6a-4839-b69a-a0f5e59062e5\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4849828418\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:14:41.897Z\",\"updated_at\":\"2026-03-16T19:14:41.897Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:14:42.021Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4849828418 | invoice_url: https://nowpayments.io/payment/?iid=4849828418","timestamp":"2026-03-16T19:14:42.170Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:14:43.207Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:14:43.208Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: 8fe52174-6b6a-4839-b69a-a0f5e59062e5 | status: finished","timestamp":"2026-03-16T19:14:43.209Z"}
+{"context":"PaymentService","level":"info","message":"Processando pagamento confirmado | order: 8fe52174-6b6a-4839-b69a-a0f5e59062e5 | invoice: 999999999","timestamp":"2026-03-16T19:14:43.210Z"}
+{"context":"PaymentService","level":"error","message":"Pagamento não encontrado para invoice_id: 999999999","stack":[null],"timestamp":"2026-03-16T19:14:43.237Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:15:00.031Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"3 pedido(s) a expirar","timestamp":"2026-03-16T19:15:00.205Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:15:48.260Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:15:48.654Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:15:48.656Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:15:48.657Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:15:48.660Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:15:49.740Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:15:49.743Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:15:49.745Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:15:49.783Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:15:49.794Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:15:49.799Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:15:49.800Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:15:49.806Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:15:49.891Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:15:49.906Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:15:49.907Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:15:57.325Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:15:57.483Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:15:57.487Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:15:57.488Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:15:57.491Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:15:58.355Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:15:58.356Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:15:58.360Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:15:58.398Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:15:58.416Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:15:58.423Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:15:58.426Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:15:58.429Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:15:58.525Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:15:58.538Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:15:58.539Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"BTC\"}","timestamp":"2026-03-16T19:17:33.732Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em BTC","timestamp":"2026-03-16T19:17:33.733Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: ff5bbce8-d150-455e-8dd0-8db3fdf4ac66","timestamp":"2026-03-16T19:17:33.923Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order ff5bbce8-d150-455e-8dd0-8db3fdf4ac66","timestamp":"2026-03-16T19:17:33.924Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 5318368088 | address: undefined","timestamp":"2026-03-16T19:17:34.915Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"5318368088\",\"token_id\":\"6378208829\",\"order_id\":\"ff5bbce8-d150-455e-8dd0-8db3fdf4ac66\",\"order_description\":\"Pedido ff5bbce8-d150-455e-8dd0-8db3fdf4ac66\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"BTC\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=5318368088\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:17:34.757Z\",\"updated_at\":\"2026-03-16T19:17:34.757Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:17:34.916Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 5318368088 | invoice_url: https://nowpayments.io/payment/?iid=5318368088","timestamp":"2026-03-16T19:17:34.972Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:17:36.004Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:17:36.005Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: ff5bbce8-d150-455e-8dd0-8db3fdf4ac66 | status: finished","timestamp":"2026-03-16T19:17:36.006Z"}
+{"context":"PaymentService","level":"info","message":"Processando pagamento confirmado | order: ff5bbce8-d150-455e-8dd0-8db3fdf4ac66 | invoice: 999999999","timestamp":"2026-03-16T19:17:36.007Z"}
+{"context":"PaymentService","level":"info","message":"✅ Pedido ff5bbce8-d150-455e-8dd0-8db3fdf4ac66 marcado como PAGO | recebido: 1 btc","timestamp":"2026-03-16T19:17:36.053Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:20:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:20:00.037Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"3 pedido(s) a expirar","timestamp":"2026-03-16T19:20:00.201Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:20:00.221Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"USDT\"}","timestamp":"2026-03-16T19:20:21.914Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em USDT","timestamp":"2026-03-16T19:20:21.915Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 8c5ca2ff-e338-4cd8-838e-3ed507c159e0","timestamp":"2026-03-16T19:20:22.013Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 8c5ca2ff-e338-4cd8-838e-3ed507c159e0","timestamp":"2026-03-16T19:20:22.023Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"8c5ca2ff-e338-4cd8-838e-3ed507c159e0"}],"timestamp":"2026-03-16T19:20:23.337Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:20:23.938Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:20:23.938Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: e90e588a-5cd8-40d4-a938-5d6d02267933 | status: finished","timestamp":"2026-03-16T19:20:23.939Z"}
+{"context":"PaymentService","level":"warn","message":"Webhook duplicado ignorado: 999999999:confirmed","timestamp":"2026-03-16T19:20:23.939Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"USDT\"}","timestamp":"2026-03-16T19:20:51.822Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em USDT","timestamp":"2026-03-16T19:20:51.823Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 0f1c257d-a198-4657-94f9-5e0ce2cdbeec","timestamp":"2026-03-16T19:20:51.874Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 0f1c257d-a198-4657-94f9-5e0ce2cdbeec","timestamp":"2026-03-16T19:20:51.874Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"0f1c257d-a198-4657-94f9-5e0ce2cdbeec"}],"timestamp":"2026-03-16T19:20:55.275Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:20:55.729Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:20:55.730Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: e90e588a-5cd8-40d4-a938-5d6d02267933 | status: finished","timestamp":"2026-03-16T19:20:55.730Z"}
+{"context":"PaymentService","level":"warn","message":"Webhook duplicado ignorado: 999999999:confirmed","timestamp":"2026-03-16T19:20:55.730Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"ETH\"}","timestamp":"2026-03-16T19:21:59.881Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em ETH","timestamp":"2026-03-16T19:21:59.882Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5","timestamp":"2026-03-16T19:21:59.941Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5","timestamp":"2026-03-16T19:21:59.942Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 4825973914 | address: undefined","timestamp":"2026-03-16T19:22:02.529Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"4825973914\",\"token_id\":\"6378208829\",\"order_id\":\"fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5\",\"order_description\":\"Pedido fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"ETH\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=4825973914\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:22:02.233Z\",\"updated_at\":\"2026-03-16T19:22:02.233Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:22:02.531Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 4825973914 | invoice_url: https://nowpayments.io/payment/?iid=4825973914","timestamp":"2026-03-16T19:22:02.588Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:22:02.996Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:22:02.996Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5 | status: finished","timestamp":"2026-03-16T19:22:02.997Z"}
+{"context":"PaymentService","level":"warn","message":"Webhook duplicado ignorado: 999999999:confirmed","timestamp":"2026-03-16T19:22:02.997Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:24:30.378Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:24:30.504Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:24:30.505Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:24:30.510Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:24:30.522Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:24:30.894Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:24:30.896Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:24:30.898Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:24:30.925Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:24:30.940Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:24:30.941Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:24:30.942Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:24:30.943Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:24:30.977Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:24:30.985Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:24:30.987Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-16T19:25:09.148Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:25:09.243Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-16T19:25:09.244Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-16T19:25:09.245Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-16T19:25:09.246Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-16T19:25:09.571Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-16T19:25:09.572Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-16T19:25:09.574Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-16T19:25:09.586Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-16T19:25:09.590Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-16T19:25:09.594Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-16T19:25:09.594Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-16T19:25:09.595Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-16T19:25:09.617Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-16T19:25:09.621Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-16T19:25:09.623Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"ETH\"}","timestamp":"2026-03-16T19:25:17.066Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em ETH","timestamp":"2026-03-16T19:25:17.066Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: 8457054e-2ba7-4f90-8f99-e81a70fadb4b","timestamp":"2026-03-16T19:25:17.130Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order 8457054e-2ba7-4f90-8f99-e81a70fadb4b","timestamp":"2026-03-16T19:25:17.131Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Invoice criada: 6036911923 | address: undefined","timestamp":"2026-03-16T19:25:18.518Z"}
+{"context":"OrderService","level":"info","message":"Invoice recebida: {\"id\":\"6036911923\",\"token_id\":\"6378208829\",\"order_id\":\"8457054e-2ba7-4f90-8f99-e81a70fadb4b\",\"order_description\":\"Pedido 8457054e-2ba7-4f90-8f99-e81a70fadb4b\",\"price_amount\":\"1\",\"price_currency\":\"USD\",\"pay_currency\":\"ETH\",\"ipn_callback_url\":\"http://localhost:3000/webhooks/nowpayments\",\"invoice_url\":\"https://nowpayments.io/payment/?iid=6036911923\",\"success_url\":null,\"cancel_url\":null,\"customer_email\":null,\"partially_paid_url\":null,\"payout_currency\":null,\"created_at\":\"2026-03-16T19:25:18.318Z\",\"updated_at\":\"2026-03-16T19:25:18.318Z\",\"is_fixed_rate\":true,\"is_fee_paid_by_user\":true,\"source\":null,\"collect_user_data\":false}","timestamp":"2026-03-16T19:25:18.518Z"}
+{"context":"OrderService","level":"info","message":"Pagamento criado | invoice_id: 6036911923 | invoice_url: https://nowpayments.io/payment/?iid=6036911923","timestamp":"2026-03-16T19:25:18.568Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:25:21.145Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:25:21.146Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: 8457054e-2ba7-4f90-8f99-e81a70fadb4b | status: finished","timestamp":"2026-03-16T19:25:21.147Z"}
+{"context":"PaymentService","level":"info","message":"Processando pagamento confirmado | order: 8457054e-2ba7-4f90-8f99-e81a70fadb4b | invoice: 999999999","timestamp":"2026-03-16T19:25:21.147Z"}
+{"context":"PaymentService","level":"info","message":"✅ Pedido 8457054e-2ba7-4f90-8f99-e81a70fadb4b marcado como PAGO | recebido: 1 btc","timestamp":"2026-03-16T19:25:21.176Z"}
+{"context":"OrderController","level":"info","message":"Recebido: {\"amount_usd\":1,\"currency\":\"USDT\"}","timestamp":"2026-03-16T19:26:32.577Z"}
+{"context":"OrderService","level":"info","message":"Criando pedido: 1 USD em USDT","timestamp":"2026-03-16T19:26:32.577Z"}
+{"context":"OrderService","level":"info","message":"Pedido criado: c234c490-b1be-4644-baa9-ccd590e8da1b","timestamp":"2026-03-16T19:26:32.692Z"}
+{"context":"NOWPaymentsClient","level":"info","message":"Criando invoice NOWPayments para order c234c490-b1be-4644-baa9-ccd590e8da1b","timestamp":"2026-03-16T19:26:32.692Z"}
+{"context":"NOWPaymentsClient","level":"error","message":"Erro ao criar invoice NOWPayments","stack":[{"error":{"code":"INVALID_REQUEST_PARAMS","message":"Currency USDT is currently unavailable","status":false,"statusCode":400},"order_id":"c234c490-b1be-4644-baa9-ccd590e8da1b"}],"timestamp":"2026-03-16T19:26:33.816Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Webhook recebido | payment_id: 999999999 | status: finished","timestamp":"2026-03-16T19:26:34.232Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"✅ Assinatura válida","timestamp":"2026-03-16T19:26:34.233Z"}
+{"context":"NOWPaymentsWebhookHandler","level":"info","message":"Processando pagamento | order: 8457054e-2ba7-4f90-8f99-e81a70fadb4b | status: finished","timestamp":"2026-03-16T19:26:34.233Z"}
+{"context":"PaymentService","level":"warn","message":"Webhook duplicado ignorado: 8457054e-2ba7-4f90-8f99-e81a70fadb4b:confirmed","timestamp":"2026-03-16T19:26:34.234Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:30:00.028Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:30:00.036Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:30:00.121Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"5 pedido(s) a expirar","timestamp":"2026-03-16T19:30:00.126Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: 9f366005-34cb-4a2a-b863-6c878a22840c","timestamp":"2026-03-16T19:30:00.182Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: f4d850d6-ed3c-4a3a-ab3b-0946112ef65b","timestamp":"2026-03-16T19:30:00.231Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:35:00.003Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"5 pedido(s) a expirar","timestamp":"2026-03-16T19:35:00.035Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:40:00.016Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:40:00.024Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"8 pedido(s) a expirar","timestamp":"2026-03-16T19:40:00.068Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:40:00.073Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: cf04f933-55e2-44f7-9f9a-5ac959f0ec9a","timestamp":"2026-03-16T19:40:00.123Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: ad883a28-e785-4d45-ab2d-f6280a026392","timestamp":"2026-03-16T19:40:00.148Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: 8993d72b-a8a6-4ee4-8478-dcdb8e6cf17e","timestamp":"2026-03-16T19:40:00.184Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:45:00.021Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"10 pedido(s) a expirar","timestamp":"2026-03-16T19:45:00.059Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: fb8f254c-d2c6-47fe-96a2-4087fb20b68d","timestamp":"2026-03-16T19:45:00.093Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: 8fe52174-6b6a-4839-b69a-a0f5e59062e5","timestamp":"2026-03-16T19:45:00.129Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T19:50:00.021Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:50:00.043Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"11 pedido(s) a expirar","timestamp":"2026-03-16T19:50:00.093Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T19:50:00.100Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T19:55:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"12 pedido(s) a expirar","timestamp":"2026-03-16T19:55:00.069Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Pedido expirado: fe8a1ceb-ff42-4d97-8f1d-8e56c85a6bd5","timestamp":"2026-03-16T19:55:00.113Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:00:00.022Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:00:00.032Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:00:00.086Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:00:00.087Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:05:00.006Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:05:00.050Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:10:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:10:00.021Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:10:00.067Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:10:00.071Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:15:00.019Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:15:00.064Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:20:00.012Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:20:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:20:00.097Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:20:00.099Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:25:00.018Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:25:00.049Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:30:00.025Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:30:00.039Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:30:00.083Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:30:00.084Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:35:00.012Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:35:00.058Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:40:00.009Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:40:00.022Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:40:00.067Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:40:00.071Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:45:00.024Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:45:00.128Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T20:50:00.020Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:50:00.048Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:50:00.111Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T20:50:00.128Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T20:55:00.025Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T20:55:00.076Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-16T21:00:00.003Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-16T21:00:00.007Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-16T21:00:00.061Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-16T21:00:00.067Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-17T00:13:56.089Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-17T00:13:56.241Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-17T00:13:56.243Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-17T00:13:56.244Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-17T00:13:56.245Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-17T00:13:56.669Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-17T00:13:56.669Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-17T00:13:56.672Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-17T00:13:56.683Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-17T00:13:56.688Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-17T00:13:56.691Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-17T00:13:56.691Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-17T00:13:56.693Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-17T00:13:56.711Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-17T00:13:56.715Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-17T00:13:56.716Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:15:00.021Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"13 pedido(s) a expirar","timestamp":"2026-03-17T00:15:00.126Z"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application...","timestamp":"2026-03-17T00:17:48.822Z"}
+{"context":"ModuleTokenFactory","level":"warn","message":"The module \"TypeOrmModule\" is taking 11.48ms to serialize, this may be caused by larger objects statically assigned to the module. More details: https://github.com/nestjs/nest/issues/12738","timestamp":"2026-03-17T00:17:48.879Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-17T00:17:49.157Z"}
+{"context":"InstanceLoader","level":"info","message":"ThrottlerModule dependencies initialized","timestamp":"2026-03-17T00:17:49.159Z"}
+{"context":"InstanceLoader","level":"info","message":"DiscoveryModule dependencies initialized","timestamp":"2026-03-17T00:17:49.161Z"}
+{"context":"InstanceLoader","level":"info","message":"ScheduleModule dependencies initialized","timestamp":"2026-03-17T00:17:49.162Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized","timestamp":"2026-03-17T00:17:50.082Z"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized","timestamp":"2026-03-17T00:17:50.089Z"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized","timestamp":"2026-03-17T00:17:50.094Z"}
+{"context":"RoutesResolver","level":"info","message":"OrderController {/orders}:","timestamp":"2026-03-17T00:17:50.129Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders, POST} route","timestamp":"2026-03-17T00:17:50.142Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/orders/:id, GET} route","timestamp":"2026-03-17T00:17:50.146Z"}
+{"context":"RoutesResolver","level":"info","message":"NOWPaymentsWebhookHandler {/webhooks}:","timestamp":"2026-03-17T00:17:50.149Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/webhooks/nowpayments, POST} route","timestamp":"2026-03-17T00:17:50.158Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2026-03-17T00:17:50.246Z"}
+{"context":"Bootstrap","level":"info","message":"🚀 Servidor rodando na porta 3000","timestamp":"2026-03-17T00:17:50.263Z"}
+{"context":"Bootstrap","level":"info","message":"📡 Webhook endpoint: POST /webhooks/nowpayments","timestamp":"2026-03-17T00:17:50.267Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:20:00.069Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-17T00:20:00.204Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-17T00:20:00.384Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:25:00.048Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-17T00:30:00.015Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:30:00.021Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-17T00:30:00.099Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:35:00.009Z"}
+{"context":"ReconciliationWorker","level":"info","message":"🔍 Reconciliation Worker iniciado...","timestamp":"2026-03-17T00:40:00.012Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:40:00.022Z"}
+{"context":"ReconciliationWorker","level":"info","message":"Nenhum pagamento pendente para reconciliar","timestamp":"2026-03-17T00:40:00.095Z"}
+{"context":"ExpireOrdersJob","level":"info","message":"Verificando pedidos expirados...","timestamp":"2026-03-17T00:45:00.019Z"}

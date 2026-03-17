@@ -15,8 +15,7 @@ export const env = {
   // Banco
   DATABASE_URL: process.env.DATABASE_URL || '',
 
-  // App
-  PORT: parseInt(process.env.PORT || '3000', 10),
+  BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
   NODE_ENV: process.env.NODE_ENV || 'development',
 };
 
