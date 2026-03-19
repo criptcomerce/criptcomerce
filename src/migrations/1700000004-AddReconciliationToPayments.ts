@@ -1,7 +1,7 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
 
-export class AddReconciledAtToPayments1700000004 implements MigrationInterface {
-  name = 'AddReconciledAtToPayments1700000004';
+export class AddReconciledAtToPayments1700000000004 implements MigrationInterface {
+  name = 'AddReconciledAtToPayments1700000000004';
 
   public async up(queryRunner: QueryRunner): Promise<void> {
     // Marca quando o reconciliation worker verificou este pagamento por último

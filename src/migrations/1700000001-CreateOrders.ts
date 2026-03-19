@@ -1,7 +1,7 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
 
-export class CreateOrders1700000001 implements MigrationInterface {
-  name = 'CreateOrders1700000001';
+export class CreateOrders1700000000001 implements MigrationInterface {
+  name = 'CreateOrders1700000000001';
 
   public async up(queryRunner: QueryRunner): Promise<void> {
     // Enum de status do pedido
