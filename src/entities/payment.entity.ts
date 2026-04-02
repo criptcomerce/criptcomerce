@@ -52,6 +52,9 @@ export class Payment {
   last_reconciled_at: Date;
 
   @Column({ nullable: true })
+  invoice_url: string;
+
+  @Column({ nullable: true })
   tx_hash: string;
 
   @Column({ nullable: true, type: 'timestamp' })

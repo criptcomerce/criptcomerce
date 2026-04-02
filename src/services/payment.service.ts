@@ -86,48 +86,40 @@ export class PaymentService {
         .where('order.id = :id', { id: order.id })
         .getOne();
 
-      if (lockedOrder.status !== OrderStatus.PENDING) {
-        this.logger.warn(`Pedido ${order.id} já processado (status: ${lockedOrder.status})`);
+      if (order.status !== OrderStatus.PENDING) {
+        this.logger.warn(`Pedido ${order.id} já processado (status: ${order.status})`);
         this.processedWebhooks.add(dedupeKey);
         return;
       }
 
-      if (payload.status === 'paid' || payload.status === 'confirmed') {
-        const expectedAmount = Number(payment.payment_amount);
-        const receivedAmount = Number(payload.receive_amount ?? payload.pay_amount ?? 0);
-        const tolerance = 0.00001;
+      const expectedAmount = Number(payment.payment_amount);
+      const receivedAmount = Number(payload.receive_amount ?? payload.pay_amount ?? 0);
+      const tolerance = 0.00001;
 
-        if (receivedAmount < expectedAmount - tolerance) {
-          this.logger.warn(
-            `⚠️  Pagamento abaixo do esperado | ` +
-            `invoice: ${invoiceId} | ` +
-            `esperado: ${expectedAmount} | ` +
-            `recebido: ${receivedAmount}`
-          );
-          this.processedWebhooks.add(dedupeKey);
-          return;
-        }
-
-        await manager.getRepository(Payment).update(payment.id, {
-          tx_hash: txHash || `coingate-${invoiceId}`,
-          paid_at: new Date(),
-        });
-
-        await manager.getRepository(Order).update(order.id, {
-          status: OrderStatus.PAID,
-        });
-
-        this.logger.log(
-          `✅ Pedido ${order.id} marcado como PAGO | ` +
-          `recebido: ${receivedAmount} ${payload.receive_currency}`
+      if (receivedAmount < expectedAmount - tolerance) {
+        this.logger.warn(
+          `⚠️  Pagamento abaixo do esperado | ` +
+          `invoice: ${invoiceId} | ` +
+          `esperado: ${expectedAmount} | ` +
+          `recebido: ${receivedAmount}`
         );
-
-      } else if (payload.status === 'expired' || payload.status === 'canceled') {
-        await manager.getRepository(Order).update(order.id, {
-          status: OrderStatus.EXPIRED,
-        });
-        this.logger.log(`Pedido ${order.id} expirado/cancelado`);
+        this.processedWebhooks.add(dedupeKey);
+        return;
       }
+
+      await manager.getRepository(Payment).update(payment.id, {
+        tx_hash: txHash || `coingate-${invoiceId}`,
+        paid_at: new Date(),
+      });
+
+      await manager.getRepository(Order).update(order.id, {
+        status: OrderStatus.PAID,
+      });
+
+      this.logger.log(
+        `✅ Pedido ${order.id} marcado como PAGO | ` +
+        `recebido: ${receivedAmount} ${payload.receive_currency}`
+      );
 
       this.processedWebhooks.add(dedupeKey);
     });
@@ -169,9 +161,31 @@ export class PaymentService {
         return;
       }
 
+      const expectedAmount = Number(payment.payment_amount);
+      const receivedAmount = Number(amount_paid);
+      const tolerance      = 0.00001;
+
+      if (receivedAmount < expectedAmount - tolerance) {
+        // Underpayment: marca como PARTIAL
+        await manager.getRepository(Payment).update(payment.id, {
+          tx_hash: tx_hash || `nowpayments-${invoice_id}`,
+          paid_at: new Date(),
+          status: 'CONFIRMED' as any,
+        });
+        await manager.getRepository(Order).update(order.id, {
+          status: OrderStatus.PARTIAL,
+        });
+        this.logger.warn(
+          `⚠️  [WEBHOOK] Underpayment | order: ${order.id} | esperado: ${expectedAmount} | recebido: ${receivedAmount} ${currency}`
+        );
+        this.processedWebhooks.add(dedupeKey);
+        return;
+      }
+
       await manager.getRepository(Payment).update(payment.id, {
         tx_hash: tx_hash || `nowpayments-${invoice_id}`,
         paid_at: new Date(),
+        status: 'CONFIRMED' as any,
       });
 
       await manager.getRepository(Order).update(order.id, {
@@ -179,7 +193,7 @@ export class PaymentService {
       });
 
       this.logger.log(
-        `✅ Pedido ${order.id} marcado como PAGO | recebido: ${amount_paid} ${currency}`
+        `✅ [PAYMENT] Confirmado | order: ${order.id} | recebido: ${amount_paid} ${currency}`
       );
 
       this.processedWebhooks.add(dedupeKey);

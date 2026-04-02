@@ -15,13 +15,8 @@ export class CreateTransfers1700000000003 implements MigrationInterface {
         CONSTRAINT "PK_transfers" PRIMARY KEY ("id")
       )
     `);
-
-    await queryRunner.query(`
-      CREATE INDEX "IDX_transfers_currency" ON "transfers" ("currency")
-    `);
-    await queryRunner.query(`
-      CREATE INDEX "IDX_transfers_executed_at" ON "transfers" ("executed_at")
-    `);
+    await queryRunner.query(`CREATE INDEX "IDX_transfers_currency" ON "transfers" ("currency")`);
+    await queryRunner.query(`CREATE INDEX "IDX_transfers_executed_at" ON "transfers" ("executed_at")`);
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {

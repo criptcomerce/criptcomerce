@@ -3,14 +3,17 @@ dotenv.config();
 
 export const env = {
   // NOWPayments
-  NOWPAYMENTS_API_KEY: process.env.NOWPAYMENTS_API_KEY || '',
+  NOWPAYMENTS_API_KEY:    process.env.NOWPAYMENTS_API_KEY    || '',
   NOWPAYMENTS_IPN_SECRET: process.env.NOWPAYMENTS_IPN_SECRET || '',
-  NOWPAYMENTS_API_URL: process.env.NOWPAYMENTS_API_URL || 'https://api.nowpayments.io',
+  NOWPAYMENTS_API_URL:    process.env.NOWPAYMENTS_API_URL    || 'https://api.nowpayments.io',
 
   // Wallets centrais
-  CENTRAL_BTC_WALLET: process.env.CENTRAL_BTC_WALLET || '',
-  CENTRAL_ETH_WALLET: process.env.CENTRAL_ETH_WALLET || '',
+  CENTRAL_BTC_WALLET:  process.env.CENTRAL_BTC_WALLET  || '',
+  CENTRAL_ETH_WALLET:  process.env.CENTRAL_ETH_WALLET  || '',
   CENTRAL_USDT_WALLET: process.env.CENTRAL_USDT_WALLET || '',
+
+  // Auth
+  JWT_SECRET: process.env.JWT_SECRET || 'dev-secret-change-in-production',
 
   // Banco
   DATABASE_URL: process.env.DATABASE_URL || '',
@@ -24,10 +27,8 @@ export function validateEnv(): void {
   const required = [
     'NOWPAYMENTS_API_KEY',
     'NOWPAYMENTS_IPN_SECRET',
-    'CENTRAL_BTC_WALLET',
-    'CENTRAL_ETH_WALLET',
-    'CENTRAL_USDT_WALLET',
     'DATABASE_URL',
+    'JWT_SECRET',
   ];
 
   if (env.NODE_ENV === 'production') {

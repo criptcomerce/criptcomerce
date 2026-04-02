@@ -15,6 +15,17 @@ export class PaymentRepository {
     return this.repo.save(payment);
   }
 
+  async findAll(): Promise<Payment[]> {
+  return this.repo.find({
+    relations: ['order'],
+    order: { created_at: 'DESC' },
+  });
+}
+
+async findById(id: string): Promise<Payment | null> {
+  return this.repo.findOne({ where: { id }, relations: ['order'] });
+}
+
   async findByInvoiceId(invoice_id: string): Promise<Payment | null> {
     return this.repo.findOne({ where: { invoice_id } });
   }
